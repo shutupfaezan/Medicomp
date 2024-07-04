@@ -1310,20 +1310,7 @@
   width: 2px;
   height: 215px;
 }
-.slogan-dots-child1,
-.slogan-dots-child2,
-.slogan-dots-child3,
-.slogan-dots-inner,
-.slogan-dots-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  background-color: var(--color-mediumblue);
-  width: 10px;
-  height: 10px;
-  z-index: 1;
-}
+
 .slogan-dots-child1,
 .slogan-dots-child2,
 .slogan-dots-child3,
@@ -1359,7 +1346,7 @@
 .slogan-content {
   flex: 1;
   flex-direction: column;
-  gap: var(--gap-2xs);
+  gap: var(--gap-11xl);
 }
 .slogan-content-wrapper {
   width: 397px;
@@ -1558,49 +1545,6 @@
   color: var(--white);
   font-family: var(--font-sf-pro-text);
 }
-
-.slogan-dots-main-li-container{
-
-space: nowrap;
-}
-.status-bar-time-01-default {
-  position: absolute;
-  top: 12px;
-  left: 21px;
-  width: 54px;
-  height: 21px;
-  overflow: hidden;
-}
-.battery-icon {
-  position: absolute;
-  top: 17px;
-  right: 16px;
-  width: 24px;
-  height: 11px;
-}
-.mobile-signal-icon,
-.wifi-icon {
-  position: relative;
-  width: 15px;
-  height: 11px;
-}
-.mobile-signal-icon {
-  width: 17px;
-}
-.status-bar-02-transparent {
-  width: 375px;
-  height: 44px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-  max-width: 100%;
-  z-index: 9;
-  text-align: center;
-  font-size: var(--h4-medical-size);
-  color: var(--white);
-  font-family: var(--font-sf-pro-text);
-}
 .access-to-200000,
 .accessible-247,
 .live-medicine-price,
@@ -1636,7 +1580,94 @@ space: nowrap;
 }
 .substitute-suggestions {
   bottom: 1327px;
-r-group-432 {
+}
+.category-stats-child {
+  width: 414px;
+  height: 588px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+}
+.medicomp-india {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  line-height: 28px;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 2;
+}
+.wrapper-group-431-child {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  transform: scale(2.292);
+}
+.wrapper-group-431 {
+  height: 41.8px;
+  width: 42px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.welcome-to-medicomp {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 195px;
+  z-index: 2;
+}
+.wrapper-group-433-child {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  transform: scale(2.292);
+}
+.wrapper-group-433 {
+  width: 42px;
+  height: 41.8px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-group-432-child {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  transform: scale(2.292);
+}
+.wrapper-group-432 {
   width: 42px;
   height: 41.8px;
   position: relative;
@@ -1915,5 +1946,4 @@ r-group-432 {
   .brand-info {
     flex-wrap: wrap;
   }
-}
 }
