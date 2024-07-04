@@ -1310,20 +1310,7 @@
   width: 2px;
   height: 215px;
 }
-.slogan-dots-child1,
-.slogan-dots-child2,
-.slogan-dots-child3,
-.slogan-dots-inner,
-.slogan-dots-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  background-color: var(--color-mediumblue);
-  width: 10px;
-  height: 10px;
-  z-index: 1;
-}
+
 .slogan-dots-child1,
 .slogan-dots-child2,
 .slogan-dots-child3,
