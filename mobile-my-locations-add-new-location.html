@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mobile-my-locations-add-new-location.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-my-locations-add-new">
+      <div class="status-bar2">
+        <div class="time4">
+          <div class="time5">9:41</div>
+        </div>
+        <div class="levels2">
+          <div class="battery2">
+            <div class="border2"></div>
+            <img class="cap-icon2" alt="" src="./public/cap.svg" />
+
+            <div class="capacity2"></div>
+          </div>
+          <img class="wifi-icon3" alt="" src="./public/wifi1.svg" />
+
+          <img
+            class="cellular-connection-icon2"
+            alt=""
+            src="./public/cellular-connection.svg"
+          />
+        </div>
+      </div>
+      <div class="title-container">
+        <div class="title2">
+          <div class="button-icon4">
+            <img
+              class="outline-arrows-arrow-left2"
+              loading="lazy"
+              alt=""
+              src="./public/outline--arrows--arrow-left.svg"
+            />
+          </div>
+          <div class="new-location-title">
+            <a class="add-new-location2">Add New Location</a>
+          </div>
+          <div class="button-icon5"></div>
+        </div>
+      </div>
+      <section class="map-wrapper-parent">
+        <div class="map-wrapper">
+          <img class="map-icon" alt="" src="./public/map@2x.png" />
+
+          <div class="my-location">
+            <img class="icon" loading="lazy" alt="" src="./public/icon.svg" />
+          </div>
+        </div>
+        <form class="bottom-sheet">
+          <div class="location-dropdown">
+            <div class="drop-button">
+              <div class="container1"></div>
+              <div class="indicator1"></div>
+            </div>
+            <div class="location">Location</div>
+          </div>
+          <div class="home-indicator1">
+            <div class="home-indicator2"></div>
+          </div>
+          <div class="input-parent">
+            <div class="input">
+              <input
+                class="your-location"
+                placeholder="Your Location"
+                type="text"
+              />
+
+              <img
+                class="outline-map-location-map"
+                alt=""
+                src="./public/outline--map--location--map-point.svg"
+              />
+            </div>
+            <div class="input1">
+              <img
+                class="bold-users-user"
+                alt=""
+                src="./public/bold--users--user.svg"
+              />
+
+              <input
+                class="full-name"
+                placeholder="Location Name"
+                type="text"
+              />
+            </div>
+          </div>
+          <button class="button2" id="button">
+            <div class="next2">Save</div>
+          </button>
+        </form>
+      </section>
+    </div>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./mobile-my-locations-added-ne.html";
+        });
+      }
+      </script>
+  </body>
+</html>

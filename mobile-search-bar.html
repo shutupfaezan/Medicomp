@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mobile-search-bar.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-searchbar">
+      <section class="doctor-card">
+        <div class="frame-parent5">
+          <img
+            class="group-icon"
+            loading="lazy"
+            alt=""
+            src="./public/group-34205@2x.png"
+          />
+
+          <div class="medicomp-logo">
+            <a class="medicomp-india1">Medicomp India</a>
+          </div>
+        </div>
+        <div class="search-bar">
+          <div class="search-input1">
+            <div class="search-input-child"></div>
+            <img
+              class="iconlybrokensearch1"
+              alt=""
+              src="./public/iconlybrokensearch.svg"
+            />
+
+            <input
+              class="search-placeholder"
+              placeholder="Enter Medicine Name......."
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="rectangle-parent7" id="groupContainer">
+          <div class="frame-child10"></div>
+          <div class="dr-maria-waston">Crocin Advance</div>
+          <div class="heart-surgeon-london">Heart Surgeon, London, England</div>
+        </div>
+        <div class="rectangle-parent8">
+          <div class="frame-child11"></div>
+          <div class="dr-maria-waston1">Crocin 650 Advance</div>
+          <div class="heart-surgeon-london1">
+            Heart Surgeon, London, England
+          </div>
+        </div>
+        <div class="rectangle-parent9">
+          <div class="frame-child12"></div>
+          <div class="dr-maria-waston2">Crocin Pills</div>
+          <div class="heart-surgeon-london2">
+            Heart Surgeon, London, England
+          </div>
+        </div>
+        <div class="rectangle-parent10">
+          <div class="frame-child13"></div>
+          <div class="dr-maria-waston3">Crocin Peppermint</div>
+          <div class="heart-surgeon-london3">
+            Heart Surgeon, London, England
+          </div>
+        </div>
+      </section>
+      <section class="group-section">
+        <div class="frame-child14"></div>
+        <div class="dr-maria-waston4">Crocin Peppermint</div>
+        <div class="heart-surgeon-london4">Heart Surgeon, London, England</div>
+      </section>
+      <div class="home-indicator5">
+        <div class="container3"></div>
+        <div class="indicator3"></div>
+      </div>
+      <div class="status-bar-02-transparent1">
+        <div class="status-bar-time-01-default1">
+          <div class="div20">09:41</div>
+        </div>
+        <img class="battery-icon1" alt="" src="./public/battery.svg" />
+
+        <img class="wifi-icon7" alt="" src="./public/wifi.svg" />
+
+        <img
+          class="mobile-signal-icon1"
+          alt=""
+          src="./public/mobile-signal.svg"
+        />
+      </div>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./mobile-results.html";
+        });
+      }
+      </script>
+  </body>
+</html>

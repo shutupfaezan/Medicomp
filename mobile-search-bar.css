@@ -1,0 +1,402 @@
+.group-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.medicomp-india1 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  font-weight: 700;
+  color: inherit;
+}
+.frame-parent5,
+.medicomp-logo {
+  display: flex;
+  align-items: flex-start;
+}
+.medicomp-logo {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.frame-parent5 {
+  width: 267px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--color-darkslateblue-200);
+}
+.search-input-child {
+  height: 60px;
+  width: 362px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 14.91px;
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.iconlybrokensearch1 {
+  height: 26.5px;
+  width: 26.5px;
+  position: relative;
+  min-height: 27px;
+  z-index: 1;
+}
+.search-input1,
+.search-placeholder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.search-placeholder {
+  width: 176px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 24.2px;
+  flex-direction: column;
+  padding: var(--padding-10xs-2) 0 0;
+  box-sizing: border-box;
+  font-family: var(--h2-medical);
+  font-size: var(--h4-medical-size);
+  color: var(--color-lightslategray);
+}
+.search-input1 {
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 14.91px;
+  background-color: var(--white);
+  flex-direction: row;
+  padding: var(--padding-mid-7) var(--padding-3xl) var(--padding-base-8);
+  gap: 17.6px;
+}
+.frame-child10,
+.search-bar,
+.search-input1 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.search-bar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+}
+.frame-child10 {
+  width: 362px;
+  height: 86px;
+  position: relative;
+  border-radius: 16.56px;
+  background-color: var(--white);
+  border: 2px solid var(--stroke);
+  display: none;
+  mix-blend-mode: normal;
+}
+.dr-maria-waston,
+.heart-surgeon-london {
+  width: 165px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.heart-surgeon-london {
+  width: 220px;
+  font-size: var(--h5-medical-size);
+  line-height: 13.5px;
+  color: var(--color-lightslategray);
+}
+.frame-child11,
+.rectangle-parent7 {
+  border-radius: 16.56px;
+  background-color: var(--white);
+  border: 2px solid var(--stroke);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  gap: var(--gap-6xs-3);
+  cursor: pointer;
+}
+.frame-child11 {
+  width: 362px;
+  height: 86px;
+  position: relative;
+  display: none;
+  mix-blend-mode: normal;
+}
+.dr-maria-waston1,
+.heart-surgeon-london1 {
+  width: 247px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.heart-surgeon-london1 {
+  width: 220px;
+  font-size: var(--h5-medical-size);
+  line-height: 13.5px;
+  color: var(--color-lightslategray);
+}
+.frame-child12,
+.rectangle-parent8 {
+  border-radius: 16.56px;
+  background-color: var(--white);
+  border: 2px solid var(--stroke);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  gap: var(--gap-7xs);
+}
+.frame-child12 {
+  width: 362px;
+  height: 86px;
+  position: relative;
+  display: none;
+  mix-blend-mode: normal;
+}
+.dr-maria-waston2,
+.heart-surgeon-london2 {
+  width: 165px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.heart-surgeon-london2 {
+  width: 220px;
+  font-size: var(--h5-medical-size);
+  line-height: 13.5px;
+  color: var(--color-lightslategray);
+}
+.frame-child13,
+.rectangle-parent9 {
+  border-radius: 16.56px;
+  background-color: var(--white);
+  border: 2px solid var(--stroke);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  gap: var(--gap-6xs-3);
+}
+.frame-child13 {
+  width: 362px;
+  height: 86px;
+  position: relative;
+  display: none;
+  mix-blend-mode: normal;
+}
+.dr-maria-waston3,
+.heart-surgeon-london3 {
+  width: 215px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.heart-surgeon-london3 {
+  width: 220px;
+  font-size: var(--h5-medical-size);
+  line-height: 13.5px;
+  color: var(--color-lightslategray);
+}
+.doctor-card,
+.rectangle-parent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent10 {
+  border-radius: 16.56px;
+  background-color: var(--white);
+  border: 2px solid var(--stroke);
+  box-sizing: border-box;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  gap: var(--gap-7xs);
+}
+.doctor-card {
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--h3-medical-size);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--h2-medical);
+}
+.frame-child14 {
+  width: 362px;
+  height: 86px;
+  position: relative;
+  border-radius: 16.56px;
+  background-color: var(--white);
+  border: 2px solid var(--stroke);
+  box-sizing: border-box;
+  display: none;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.dr-maria-waston4,
+.heart-surgeon-london4 {
+  width: 215px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.heart-surgeon-london4 {
+  width: 220px;
+  font-size: var(--h5-medical-size);
+  line-height: 13.5px;
+  color: var(--color-lightslategray);
+}
+.group-section {
+  align-self: stretch;
+  border-radius: 16.56px;
+  background-color: var(--white);
+  border: 2px solid var(--stroke);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h3-medical-size);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--h2-medical);
+}
+.container3,
+.indicator3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.indicator3 {
+  height: 14.71%;
+  width: 35.73%;
+  top: 55.88%;
+  right: 32%;
+  bottom: 29.41%;
+  left: 32.27%;
+  border-radius: var(--br-10xs-5);
+  background-color: var(--color-darkslateblue-300);
+}
+.home-indicator5 {
+  width: 375px;
+  height: 34px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.div20 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  letter-spacing: -0.24px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 17px;
+  white-space: nowrap;
+}
+.status-bar-time-01-default1 {
+  position: absolute;
+  top: 12px;
+  left: 21px;
+  width: 54px;
+  height: 21px;
+  overflow: hidden;
+}
+.battery-icon1 {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  width: 24px;
+  height: 11px;
+}
+.mobile-signal-icon1,
+.wifi-icon7 {
+  position: relative;
+  width: 15px;
+  height: 11px;
+}
+.mobile-signal-icon1 {
+  width: 17px;
+}
+.status-bar-02-transparent1 {
+  width: 375px;
+  height: 44px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  max-width: 100%;
+}
+.mobile-searchbar {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-30xl) var(--padding-7xl) 207px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--h4-medical-size);
+  color: var(--white);
+  font-family: var(--font-sf-pro-text);
+}

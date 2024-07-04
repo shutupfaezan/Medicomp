@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mobile-my-locations.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-my-locations">
+      <div class="status-bar">
+        <div class="time">
+          <div class="time1">9:41</div>
+        </div>
+        <div class="levels">
+          <div class="battery">
+            <div class="border"></div>
+            <img class="cap-icon" alt="" src="./public/cap.svg" />
+
+            <div class="capacity"></div>
+          </div>
+          <img class="wifi-icon1" alt="" src="./public/wifi1.svg" />
+
+          <img
+            class="cellular-connection-icon"
+            alt=""
+            src="./public/cellular-connection.svg"
+          />
+        </div>
+      </div>
+      <div class="title-wrapper">
+        <div class="title">
+          <div class="button-icon">
+            <img
+              class="outline-arrows-arrow-left"
+              loading="lazy"
+              alt=""
+              src="./public/outline--arrows--arrow-left.svg"
+            />
+          </div>
+          <div class="my-locations-wrapper">
+            <a class="my-locations">My Locations</a>
+          </div>
+          <div class="button-icon1"></div>
+        </div>
+      </div>
+      <div class="card-location">
+        <div class="address1">
+          <a class="home">Home</a>
+          <div class="b-baker-street">
+            221B Baker Street, London, United Kingdom
+          </div>
+        </div>
+        <div class="outline-selected-wrapper">
+          <img
+            class="outline-selected"
+            loading="lazy"
+            alt=""
+            src="./public/outline--selected.svg"
+          />
+        </div>
+      </div>
+      <section class="card-location-parent">
+        <div class="card-location1">
+          <div class="address2">
+            <a class="home1">Company</a>
+            <div class="b-baker-street1">
+              1A Baker Street, London, United Kingdom
+            </div>
+          </div>
+          <div class="outline-video-audio-sound-wrapper">
+            <img
+              class="outline-video-audio-sound"
+              loading="lazy"
+              alt=""
+              src="./public/outline--video-audio-sound--record.svg"
+            />
+          </div>
+        </div>
+        <button class="card-location2" id="cardLocation">
+          <img class="plus-icon" alt="" src="./public/plus.svg" />
+
+          <div class="add-new-location-wrapper">
+            <div class="add-new-location">Add New Location</div>
+          </div>
+        </button>
+        <div class="space"></div>
+      </section>
+      <div class="button-wrapper">
+        <button class="button">
+          <div class="next">Continue</div>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var cardLocation = document.getElementById("cardLocation");
+      if (cardLocation) {
+        cardLocation.addEventListener("click", function (e) {
+          window.location.href = "./mobile-my-locations-add-new.html";
+        });
+      }
+      </script>
+  </body>
+</html>

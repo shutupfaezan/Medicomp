@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="stylesheet"
+      href="./mobile-my-locations-added-new-location.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF Pro:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mobile-my-locations-added-ne">
+      <div class="status-bar3">
+        <div class="time6">
+          <div class="time7">9:41</div>
+        </div>
+        <div class="levels3">
+          <div class="battery3">
+            <div class="border3"></div>
+            <img class="cap-icon3" alt="" src="./public/cap.svg" />
+
+            <div class="capacity3"></div>
+          </div>
+          <img class="wifi-icon4" alt="" src="./public/wifi1.svg" />
+
+          <img
+            class="cellular-connection-icon3"
+            alt=""
+            src="./public/cellular-connection.svg"
+          />
+        </div>
+      </div>
+      <div class="title-frame">
+        <div class="title3">
+          <div class="button-icon6">
+            <img
+              class="outline-arrows-arrow-left3"
+              loading="lazy"
+              alt=""
+              src="./public/outline--arrows--arrow-left.svg"
+            />
+          </div>
+          <div class="new-location-title1">
+            <a class="add-new-location3">Add New Location</a>
+          </div>
+          <div class="button-icon7"></div>
+        </div>
+      </div>
+      <section class="map-wrapper-group">
+        <div class="map-wrapper1">
+          <img class="map-icon1" alt="" src="./public/map@2x.png" />
+
+          <div class="my-location1">
+            <img class="icon1" loading="lazy" alt="" src="./public/icon.svg" />
+          </div>
+          <div class="map-pin">
+            <img
+              class="pin-icon"
+              loading="lazy"
+              alt=""
+              src="./public/pin.svg"
+            />
+          </div>
+        </div>
+        <div class="bottom-sheet1">
+          <div class="location-dropdown1">
+            <div class="drop-button1">
+              <div class="container2"></div>
+              <div class="indicator2"></div>
+            </div>
+            <div class="location1">Location</div>
+          </div>
+          <div class="home-indicator3">
+            <div class="home-indicator4"></div>
+          </div>
+          <div class="location-input">
+            <div class="input2">
+              <div class="b-baker-street5">
+                110 Baker Street, London, United Kingdom
+              </div>
+              <img
+                class="outline-map-location-map1"
+                loading="lazy"
+                alt=""
+                src="./public/outline--map--location--map-point.svg"
+              />
+            </div>
+            <div class="input3">
+              <img
+                class="bold-users-user1"
+                alt=""
+                src="./public/bold--users--user.svg"
+              />
+
+              <div class="thomas-k-wilson">Lover's house</div>
+            </div>
+          </div>
+          <button class="button3" id="button">
+            <div class="next3">Save</div>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./mobile-my-locations1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
