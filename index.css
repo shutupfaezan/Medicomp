@@ -1359,12 +1359,12 @@
 .slogan-content {
   flex: 1;
   flex-direction: column;
-  gap: var(--gap-11xl);
+  gap: var(--gap-2xs);
 }
 .slogan-content-wrapper {
   width: 397px;
   flex-direction: row;
-  padding: 0 var(--padding-5xl) 141px;
+  padding: 0 var(--padding-5xl) 60px;
   box-sizing: border-box;
   text-align: left;
   font-size: 23px;
@@ -1558,41 +1558,9 @@
   color: var(--white);
   font-family: var(--font-sf-pro-text);
 }
-.access-to-200000,
-.accessible-247,
-.live-medicine-price,
-.real-time-availability-checkin,
-.substitute-suggestions {
-  width: 622.5px;
-  position: absolute;
-  margin: 0 !important;
-  right: -248px;
-  bottom: 1545px;
-  line-height: 28px;
-  font-weight: 500;
-  display: inline-block;
-}
-.access-to-200000,
-.accessible-247,
-.real-time-availability-checkin,
-.substitute-suggestions {
-  bottom: 1490px;
-}
-.access-to-200000,
-.real-time-availability-checkin,
-.substitute-suggestions {
-  width: 617.4px;
-  bottom: 1437px;
-  line-height: 26px;
-}
-.access-to-200000,
-.substitute-suggestions {
-  width: 617.6px;
-  bottom: 1382px;
-  line-height: 28px;
-}
-.substitute-suggestions {
-  bottom: 1327px;
+
+.slogan-dots-main-li-container{
+
 }
 .category-stats-child {
   width: 414px;
