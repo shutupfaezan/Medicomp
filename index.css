@@ -1373,8 +1373,9 @@
 }
 .blog-image-icon,
 .blog-image-icon1 {
-  height: 175px;
-  width: 177px;
+  aspect-ratio: 1/1;
+  /* height: 150px; */
+  width: 165px;
   position: relative;
   border-radius: var(--br-3xs);
   object-fit: cover;
@@ -1389,13 +1390,15 @@
   padding: 0 var(--padding-11xs) 0 0;
   gap: var(--gap-xl);
 }
-.rectangle-icon {
+/* .rectangle-icon {
   min-height: 175px;
-}
+} */
 .frame-child9,
 .rectangle-icon {
-  width: 177px;
-  height: 175px;
+  aspect-ratio: 1/1;
+  width: 165px;
+  /* width: 177px;
+  height: 175px; */
   position: relative;
   border-radius: var(--br-3xs);
   object-fit: cover;
