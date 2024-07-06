@@ -390,7 +390,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-30xl) var(--padding-7xl) 207px;
+  padding: var(--padding-30xl) var(--padding-7xl);
   box-sizing: border-box;
   gap: var(--gap-xl);
   line-height: normal;
