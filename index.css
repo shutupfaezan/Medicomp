@@ -494,7 +494,7 @@
 .categories-grid-wrapper,
 .rectangle-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   max-width: 100%;
 }
 .categories-grid {
