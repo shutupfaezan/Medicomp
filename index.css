@@ -165,6 +165,11 @@
   padding: 0 var(--padding-4xl);
   font-size: var(--h4-medical-size);
   color: var(--color-lightslategray);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 15px;
 }
 .headlinesearch {
   align-self: stretch;
@@ -172,7 +177,7 @@
   flex-direction: column;
   padding: var(--padding-15xl) var(--padding-6xl) 44.6px;
   box-sizing: border-box;
-  gap: var(--gap-21xl-5);
+  /* gap: var(--gap-21xl-5); */
   max-width: 100%;
   text-align: left;
   font-size: 11px;
