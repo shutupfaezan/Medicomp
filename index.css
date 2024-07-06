@@ -1436,7 +1436,9 @@
 .blog-posts {
   flex-direction: column;
   padding: 0 0 var(--padding-8xs);
-  gap: var(--gap-4xl);
+  gap: var(--gap-4xs);
+  /* gap: 10px; */
+  display: flex;
 }
 .view-all1 {
   text-decoration: none;
