@@ -4,6 +4,38 @@
   position: relative;
   object-fit: cover;
 }
+.frame-parent5 {
+  width: 267px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--color-darkslateblue-200);
+}
+.group-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-parent5,
+.medicomp-logo {
+  display: flex;
+  align-items: flex-start;
+}
+.medicomp-logo {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.medicomp-india1 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  font-weight: 700;
+  color: inherit;
+  font-size: 18px;
+}
 .medicomp-india2 {
   text-decoration: none;
   position: relative;
@@ -1085,7 +1117,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-30xl) var(--padding-2xs) 57px var(--padding-6xl);
+  padding: var(--padding-30xl) var(--padding-7xl);
   box-sizing: border-box;
   gap: var(--gap-xl);
   line-height: normal;
