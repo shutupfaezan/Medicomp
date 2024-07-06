@@ -141,6 +141,7 @@
   padding: var(--padding-7xs-5) var(--padding-5xs);
   white-space: nowrap;
   color: var(--white);
+  flex: 1;
 }
 .accuracy {
   position: relative;
@@ -157,7 +158,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-7xs-5) var(--padding-8xl);
+  padding: var(--padding-7xs-5) var(--padding-5xs);
+  flex: 1;
 }
 .delivery-time {
   text-decoration: none;
@@ -181,7 +183,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   border-radius: var(--br-7xs);
   background-color: var(--white);
-  padding: var(--padding-7xs-5) var(--padding-sm);
+  padding: var(--padding-7xs-5) var(--padding-5xs);
+  flex: 1; 
 }
 .filter-names-parent {
   margin: 0;
