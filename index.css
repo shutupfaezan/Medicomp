@@ -483,10 +483,10 @@
   align-self: stretch;
   border-radius: var(--br-xl);
   background: linear-gradient(121.94deg, #c0d7ff, #3875eb);
-  overflow-x: auto;
+  /* overflow-x: auto; */
   flex-direction: row;
   padding: var(--padding-mini);
-  gap: 10px;
+  /* gap: 10px; */
   font-size: var(--font-size-10xl);
   color: var(--color-lightslategray);
 }
@@ -494,7 +494,7 @@
 .categories-grid-wrapper,
 .rectangle-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   max-width: 100%;
 }
 .categories-grid {
