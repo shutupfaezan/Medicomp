@@ -414,7 +414,7 @@
   border: 2px solid var(--stroke);
   box-sizing: border-box;
   align-items: flex-start;
-  margin-left: -361px;
+  /* margin-left: -361px; */
 }
 .product-item {
   align-self: stretch;
