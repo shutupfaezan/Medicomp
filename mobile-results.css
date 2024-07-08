@@ -134,6 +134,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   border-radius: var(--br-7xs);
   background-color: #6b9af3;
+  text-align: center;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -142,6 +143,15 @@
   white-space: nowrap;
   color: var(--white);
   flex: 1;
+}
+.filter-names b{
+  font-size: 11px;
+}
+.filter-names1 b{
+  font-size: 11px;
+}
+.filter-names2 b{
+  font-size: 11px;
 }
 .accuracy {
   position: relative;
