@@ -273,6 +273,8 @@
   display: inline-block;
   min-width: 166px;
   padding: 0;
+  padding-right: var(--padding-11xl);
+  color: black;
 }
 .outline-map-location-map {
   height: 24px;
@@ -322,6 +324,7 @@
   display: inline-block;
   min-width: 188px;
   padding: 0;
+  color: black;
 }
 .input-parent,
 .input1 {

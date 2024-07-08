@@ -29,32 +29,13 @@
   </head>
   <body>
     <div class="mobile-my-locations-add-new">
-      <div class="status-bar2">
-        <div class="time4">
-          <div class="time5">9:41</div>
-        </div>
-        <div class="levels2">
-          <div class="battery2">
-            <div class="border2"></div>
-            <img class="cap-icon2" alt="" src="./public/cap.svg" />
-
-            <div class="capacity2"></div>
-          </div>
-          <img class="wifi-icon3" alt="" src="./public/wifi1.svg" />
-
-          <img
-            class="cellular-connection-icon2"
-            alt=""
-            src="./public/cellular-connection.svg"
-          />
-        </div>
-      </div>
       <div class="title-container">
         <div class="title2">
           <div class="button-icon4">
             <img
               class="outline-arrows-arrow-left2"
               loading="lazy"
+              id="go_back"
               alt=""
               src="./public/outline--arrows--arrow-left.svg"
             />
@@ -91,7 +72,6 @@
                 placeholder="Your Location"
                 type="text"
               />
-
               <img
                 class="outline-map-location-map"
                 alt=""
@@ -99,12 +79,6 @@
               />
             </div>
             <div class="input1">
-              <img
-                class="bold-users-user"
-                alt=""
-                src="./public/bold--users--user.svg"
-              />
-
               <input
                 class="full-name"
                 placeholder="Location Name"
@@ -126,6 +100,10 @@
           window.location.href = "./mobile-my-locations-added-ne.html";
         });
       }
+      var go_back = document.getElementById("go_back");
+      go_back.onclick = function() {
+          window.history.back();
+      };
       </script>
   </body>
 </html>
