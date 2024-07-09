@@ -124,16 +124,19 @@
   color: var(--color-lightslategray);
 }
 .price-low-to {
+  text-decoration: none;
   position: relative;
   letter-spacing: 0.02em;
   line-height: 18px;
+  font-weight: 700;
+  color: inherit;
   display: inline-block;
-  min-width: 110px;
+  min-width: 88px;
 }
 .filter-names {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
   border-radius: var(--br-7xs);
-  background-color: #6b9af3;
+  /* background-color: #6b9af3; */
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -141,7 +144,7 @@
   justify-content: flex-start;
   padding: var(--padding-7xs-5) var(--padding-5xs);
   white-space: nowrap;
-  color: var(--white);
+  /* color: var(--white); */
   flex: 1;
 }
 .filter-names b{
@@ -154,11 +157,14 @@
   font-size: 11px;
 }
 .accuracy {
+  text-decoration: none;
   position: relative;
   letter-spacing: 0.02em;
   line-height: 18px;
+  font-weight: 700;
+  color: inherit;
   display: inline-block;
-  min-width: 62px;
+  min-width: 88px;
 }
 .filter-names1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
@@ -196,6 +202,15 @@
   padding: var(--padding-7xs-5) var(--padding-5xs);
   flex: 1; 
 }
+
+#price_low_to_high:target,
+#accuracy:target,
+#delivery_time:target {
+  background-color: #6b9af3; /* active background color */
+  color: var(--white);
+}
+
+
 .filter-names-parent {
   margin: 0;
   padding: 0 0 var(--padding-10xs);
