@@ -375,6 +375,22 @@
 .button2:hover {
   background-color: #6385c7;
 }
+.button2.active{
+  background: linear-gradient(121.94deg, #3875eb, #c0d7ff);
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  align-self: stretch;
+  box-shadow: var(--shadow-2);
+  border-radius: var(--br-9xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+/* .button2.active:hover {
+  background-color: #6385c7;
+} */
 .bottom-sheet {
   align-self: stretch;
   border-radius: var(--br-xs) var(--br-xs) 0 0;
@@ -406,7 +422,7 @@
   border: 6px solid var(--white);
   box-sizing: border-box;
   overflow: hidden;
-  padding: var(--padding-35xl) 0 0;
+  padding: var(--padding-lgi) 0 0;
   gap: var(--gap-base);
   line-height: normal;
   letter-spacing: normal;

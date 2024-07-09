@@ -86,7 +86,7 @@
               />
             </div>
           </div>
-          <button class="button2" id="button">
+          <button class="button2" id="button" type="submit" disabled>
             <div class="next2">Save</div>
           </button>
         </form>
@@ -94,16 +94,42 @@
     </div>
 
     <script>
-      var button = document.getElementById("button");
-      if (button) {
-        button.addEventListener("click", function (e) {
-          window.location.href = "./mobile-my-locations-added-ne.html";
+      document.addEventListener("DOMContentLoaded", function () {
+        var button = document.getElementById("button");
+        var locationInput = document.querySelector(".your-location");
+        var nameInput = document.querySelector(".full-name");
+        var form = document.querySelector("form.bottom-sheet");
+    
+        function checkInputs() {
+          if (locationInput.value.trim() !== "" && nameInput.value.trim() !== "") {
+            button.classList.add("active");
+            button.disabled = false;
+          } else {
+            button.classList.remove("active");
+            button.disabled = true;
+          }
+        }
+    
+        locationInput.addEventListener("input", checkInputs);
+        nameInput.addEventListener("input", checkInputs);
+    
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          if (locationInput.value.trim() !== "" && nameInput.value.trim() !== "") {
+            window.location.href = "./new page";
+          }
         });
-      }
-      var go_back = document.getElementById("go_back");
-      go_back.onclick = function() {
+    
+        var go_back = document.getElementById("go_back");
+        go_back.onclick = function () {
           window.history.back();
-      };
-      </script>
+        };
+    
+        checkInputs();
+      });
+    </script>
+    
+    
+    
   </body>
 </html>
