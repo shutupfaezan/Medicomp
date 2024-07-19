@@ -730,7 +730,7 @@
   gap: var(--gap-xs);
 }
 .total-container {
-  width: 374px;
+  width: 100%;
   flex-direction: row;
   padding: 0 var(--padding-8xs) var(--padding-5xs);
   box-sizing: border-box;
@@ -1219,12 +1219,13 @@
   font-size: var(--h3-medical-size);
 }
 .bill-details-parent {
-  width: 376px;
-  height: 142px;
   flex-direction: column;
   padding: 0 var(--padding-12xs) var(--padding-lg) 0;
   gap: 13px;
   text-align: left;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   font-size: var(--px-semi-bold1-size);
   color: var(--neutral-neutral-900);
   font-family: var(--px-semi-bold);
@@ -1255,7 +1256,7 @@
 }
 .mobile-my-basket {
   width: 100%;
-  height: 908px;
+  /* height: 908px; */
   position: relative;
   border-radius: var(--br-xs);
   background-color: var(--white);
