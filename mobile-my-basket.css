@@ -1264,7 +1264,7 @@
   border: 6px solid var(--white);
   overflow-y: auto;
   flex-direction: column;
-  padding: var(--padding-35xl) var(--padding-lgi) 0;
+  padding: var(--padding-5xl) var(--padding-lgi) 0;
   gap: var(--gap-base);
   line-height: normal;
   letter-spacing: normal;
