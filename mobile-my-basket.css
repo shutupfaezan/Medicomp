@@ -1069,7 +1069,7 @@
 }
 .div17,
 .subtotal {
-  width: 60px;
+  /* width: 60px; */
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -1077,7 +1077,7 @@
   white-space: nowrap;
 }
 .div17 {
-  width: 54px;
+  /* width: 54px; */
   font-weight: 600;
 }
 .bill-items,
@@ -1224,7 +1224,8 @@
   gap: 13px;
   text-align: left;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  height: 200px;
   width: 100%;
   font-size: var(--px-semi-bold1-size);
   color: var(--neutral-neutral-900);
